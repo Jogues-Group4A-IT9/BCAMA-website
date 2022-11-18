@@ -1,0 +1,901 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box
+}
+.bg {
+	height: 100vh;
+	width: 100%;
+	background-image: url('beach.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 200px 50px 50px 50px;
+}
+nav{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	padding: 45px 8px 20px 100px;
+	background-color: #354e5a;
+	border: solid #354e5a;
+	justify-content: space-between;
+
+}
+.banner{
+	border: 2px black solid;
+}
+span{
+	color:#d6d0ba;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 15px
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-color: #333a4a;
+	padding: 10px 25px;
+	border-radius: 25px;
+	transition: 0.4s;
+}
+nav ul li a:hover{
+	color:black;
+	transition: 0.4s;
+	background-color: #d6d0ba;
+}
+
+
+/* 
+	margin-left: 50px;
+	border: 5px solid #555;
+	top: 50%;
+	left: 8; */
+.content{
+	top: 140px;
+	left: 8;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 30px 0px 30px 30px;
+	margin-right: 450px;
+	border-radius: 25px;
+}
+h4{
+	color: #d5a800;
+	margin: 20px 0px 20px;
+	font-size: 60px
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+.picRight{
+	float: right;
+	margin: 100px;
+	border-radius: 25px;
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-image: url('beach.jpg');
+	
+}
+.about .picLeft {
+	height: auto;
+	width: 500px;
+	float: left;
+	border-radius: 25px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px
+
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: #d5a800;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.about-text p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	padding: 20px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: justify;
+	text-font: bold;
+}
+.buton{
+	background-color: #151b42;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: 0.4s;
+}
+.buton:hover{
+	background-color: transparent;
+	border: 2px solid #151b42;
+	cursor: pointer;
+	color: white;
+	
+}
+.projects{
+	background: #77B5BD;
+	width: 100%;
+	padding: 100px 0px;
+	background-image: url('night beach.jpg');
+}
+.title h2{
+	color: #d5a800;
+	font-size: 100px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #FFF4B3;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #151b42;
+}
+h5{
+	color: black;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: black;
+	font-size: 25px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color: #151b42;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: 0.4s;
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #151b42;
+	cursor: pointer;
+	color: black;
+} 
+.about2 nav{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	padding: 45px 8px 20px 100px;
+	background-color: #354e5a;
+	border: solid #354e5a;
+	justify-content: space-between;
+}
+.about2.banner{
+	border: 2px black solid;
+}
+.about2 nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 15px
+}
+.about2 nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-color: #333a4a;
+	padding: 10px 25px;
+	border-radius: 25px;
+	transition: 0.4s;
+}
+.about2 nav ul li a:hover{
+	color:black;
+	transition: 0.4s;
+	background-color: #d6d0ba;
+}
+.titlebg2{
+	height: 70vh;
+	width: 100%;
+	background-image: url('beach.jpg');
+	padding: 50px;
+
+}
+.title2{
+	text-align: center;
+	top: 120px;
+	left: 8;
+	margin-right: 50px;
+	padding-top: 100px;
+	
+}
+.title2 h2{
+	color: #d5a800;
+	margin: 20px 0px 20px;
+	font-size: 55px;
+}
+.title2 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+	margin-left: 45px;
+}
+.bg2{
+	height: 150vh;
+	width: 100%;
+	background-image: url('sheesh pauline mananakaw.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.content2{
+	text-align: left;
+	top: 120px;
+	left: 8;
+	margin-right: 450px;
+	padding-top: 150px;
+}
+.content2 h2{
+	color: #d5a800;
+	margin: 20px 0px 20px;
+	font-size: 50px;
+}
+.picRight2{
+	height: 467px;
+	width: 700px;
+	text-align: right;
+	padding: 50px;
+	border-radius: 25px;
+}
+.bg22{
+	height: 120vh;
+	width: 100%;
+	background-image: url('pauline hehe.webp');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.content2 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	padding: 20px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: justify;
+	text-font: bold;
+}
+.about-text2{
+	width: 1000px;
+}
+.main2{
+	top: 140px;
+	right: 8;
+	margin-left: 400px;
+	padding-top: 100px
+}
+.about-text2 h2{
+	color: #d5a800;
+	font-size: 60px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: right;
+}
+.about-text2 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	padding: 20px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: justify;
+	text-font: bold;
+}
+.about3 nav{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	padding: 45px 8px 20px 100px;
+	background-color: #354e5a;
+	border: solid #354e5a;
+	justify-content: space-between;
+}
+.about3.banner{
+	border: 2px black solid;
+}
+.about3 nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 15px
+}
+.about3 nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-color: #333a4a;
+	padding: 10px 25px;
+	border-radius: 25px;
+	transition: 0.4s;
+}
+.about3 nav ul li a:hover{
+	color:black;
+	transition: 0.4s;
+	background-color: #d6d0ba;
+}
+.bg3{
+	height: 45vh;
+	width: 100%;
+	background-image: url('beach.jpg');
+	background-size: cover;
+	padding: 50px;
+}
+.content3{
+	text-align: center;
+	left: 8;
+	margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+	margin-top: 100px;
+}
+.content3 h2{
+	color: #d5a800;
+	margin: 20px 0px 20px;
+	font-size: 90px;
+	text-font: bold;
+	text-align: center;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	padding: 5px;
+}
+.picRight3{
+	height: 367px;
+	width: 500px;
+	margin-left: 10px;
+}
+.bg33{
+	height: 190vh;
+	width: 100%;
+	background-image: url('bg for background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+
+.about-text3{
+	margin-left: -165px;
+	width: 1000px;
+}
+.main3{
+	top: 140px;
+	right: 8;
+	margin-left: 400px;
+	padding-top: 100px
+}
+.about-text3 h2{
+	color: #d5a800;
+	font-size: 80px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.about-text3 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	padding: 20px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+.about-text33{
+	margin-left: -165px;
+	width: 1000px;
+}
+.bg333{
+	height: 190vh;
+	width: 100%;
+	background-image: url('bg for background2.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.main33{
+	top: 140px;
+	right: 8;
+	margin-left: 400px;
+	padding-top: 100px
+}
+.about-text33 h2{
+	color: #d5a800;
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.about-text33 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+.button33{
+	background-color: #151b42;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: 0.4s;
+}
+.button33:hover{
+	background-color: transparent;
+	border: 2px solid #151b42;
+	cursor: pointer;
+	color: white;
+}
+}
+.about-text333{
+	margin-left: -175px;
+	width: 1000px;
+	margin-right: 175px;
+}
+.bg3333{
+	height: 230vh;
+	width: 100%;
+	background-image: url('people bg (2).jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.main333{
+	top: 140px;
+	right: 8;
+	margin-left: -5px;
+	padding-top: 100px
+}
+.about-text333 h2{
+	color: #d5a800;
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.about-text333 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+.titlebg4{
+	height: 40vh;
+	width: 100%;
+	background-image: url('beach.jpg');
+	padding: 50px;
+}
+.title4{
+	text-align: center;
+	left: 8;
+	margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+	margin-top: 100px;
+}
+.title4 h2{
+	color: #d5a800;
+	margin: 20px 0px 20px;
+	font-size: 90px;
+	text-font: bold;
+	text-align: center;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	padding: 5px;
+}
+.bg44{
+	height: 120vh;
+	width: 100%;
+	background-image: url('badjao bg.webp');
+	padding: 50px;
+}
+.content44 h2{
+	color: 	#001F3C;
+	font-size: 70px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.content44 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.bg444{
+	height: 170vh;
+	width: 100%;
+	background-image: url('beach bg water.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.content444 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	padding: 50px;
+	border-radius: 25px;
+	text-align: left;
+}
+.content444 p img{
+	border-radius: 25px;
+	margin-right: 65px;
+}
+.content444 h2{
+	color: 	#001F3C;
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.content4444 h2{
+	color: 	#001F3C;
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.content4444 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	padding: 50px;
+	border-radius: 25px;
+	text-align: left;
+}
+.bg4444{
+	height: 120vh;
+	width: 100%;
+	background-image: url('beach bg.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.content4444 p img{
+	width: 400px;
+}
+.bg5{
+	height: 45vh;
+	width: 100%;
+	background-image: url('plant bg.webp');
+	background-size: cover;
+	padding: 50px;
+}
+.content5{
+	text-align: center;
+	left: 8;
+	margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+	margin-top: 100px;
+}
+.content5 h2{
+	color: #d5a800;
+	margin: 20px 0px 20px;
+	font-size: 50px;
+	text-font: bold;
+	text-align: center;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+	padding: 5px;
+}
+.content5 p{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 20px;
+	text-font: bold;
+	text-align: center;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+	padding: 5px;
+}
+.bg55{
+	height: 190vh;
+	width: 100%;
+	background-image: url('plant ng.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+
+.about-text5{
+	margin-left: -165px;
+	width: 1000px;
+}
+.main5{
+	top: 140px;
+	right: 8;
+	margin-left: 400px;
+	padding-top: 100px
+}
+.about-text5 h2{
+	color: #d5a800;
+	font-size: 80px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.about-text5 h3{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 30px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 30px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+.about-text5 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	padding: 20px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+.about-text55{
+	margin-left: -165px;
+	width: 1000px;
+}
+.bg555{
+	height: 150vh;
+	width: 100%;
+	background-image: url('plant bg2.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.main55{
+	top: 140px;
+	right: 8;
+	margin-left: 400px;
+	padding-top: 100px
+}
+.about-text55 h2{
+	color: #d5a800;
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.about-text55 h3{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 30px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 30px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+.about-text55 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+}
+.about-text555{
+	margin-left: -175px;
+	width: 1000px;
+	margin-right: 175px;
+}
+.bg5555{
+	height: 300vh;
+	width: 100%;
+	background-image: url('plant bg3.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.main555{
+	top: 140px;
+	right: 8;
+	margin-left: -5px;
+	padding-top: 100px
+}
+.about-text555 h2{
+	color: #d5a800;
+	font-size: 80px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.about-text555 h3{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 30px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 30px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+.about-text555 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 50px;
+	border-radius: 25px;
+	text-align: center;
+	text-font: bold;
+}
+.content6 p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	padding: 50px;
+	border-radius: 25px;
+	text-align: left;
+}
+.bg6{
+	height: 380vh;
+	width: 100%;
+	background-image: url('walking.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.content6 h2{
+	color: #d5a800;
+	margin: 20px 0px 20px;
+	font-size: 90px;
+	text-font: bold;
+	text-align: center;
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	padding: 5px;
+}
